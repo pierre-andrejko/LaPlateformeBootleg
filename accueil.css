@@ -18,6 +18,16 @@ a:link{
   display: start;
   flex-direction: row;
 }
+.button{
+    border: none;
+    background-color: #f44336;
+    display: inline-block;
+    transition-duration: 0.4s;
+}
+.button:hover {
+    background-color: #f44336;
+    color: white;
+  }
 .bluelink{
     display:flex;
     flex-direction: column;
