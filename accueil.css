@@ -1,0 +1,113 @@
+
+nav{
+    display:block
+}
+.cursus li{
+    display:flex;   
+    justify-content: space-between;
+}
+a:link{
+    text-decoration: none;
+}
+.selectionlink{
+    background-color: rgb(170, 37, 37);
+  color: black;
+  border: 40px solid blue;
+  text-align: center;
+  text-decoration: none;
+  display: start;
+  flex-direction: row;
+}
+.bluelink{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+a{
+    color: black;   
+}
+a:hover:not(.bluelink), a:active:not(.bluelink) {
+    background-color: rgb(160, 158, 158);
+    color: black;  
+    padding: 10px 20px;
+}
+.linkheader{
+background-color: white;
+color: black;
+border: 2px solid blue;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+a:visited {
+    text-decoration: none;
+}
+.headpage{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: end;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+main{
+    border: 0cm;
+    display: flex;
+    flex-direction: row;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:larger;
+}
+.fondbleuleft{
+    background-color: blue;
+    display: flex;
+    width: 60%;
+}
+.fondbleuright{
+    background-color:hsla(0, 4%, 80%, 0.7);
+    display: flex;
+    width: 40%;
+    align-items: start;
+    justify-content: center;
+    font-size: larger;
+}
+.fondgris{
+    background-color: hsla(0, 4%, 80%, 0.7);
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+.footer{
+    background-color: black;
+}
+body{
+    background-image: url("HP_visual_light.jpg");
+}
+.leftgris{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}   
+.réseauxsociaux li{
+    display: inline;
+    justify-content: space-between;
+}
+.bluelinklow li{
+    display:inline;
+    justify-content: space-between;
+    border:solid 1px black;
+}
+.midleftgris{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 60%;
+}
+.videoyt{
+    border:solid 1px black;
+}
